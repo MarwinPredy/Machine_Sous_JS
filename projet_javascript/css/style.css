@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+body {
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    color: #262626;
+    font-size: 12px;
+}
+
+.separate {
+    margin:50px auto;
+    width:80%;
+    border-bottom: solid 1px yellow;
+}
+
+.tirage {
+    height:250px;
+    font-size: 200px;
+    margin:auto;
+    line-height:300px;
+}
+
+.tirage .case {
+    background-color: white;
+    height:200px;
+    border:solid 1px black;
+}
+
+.tirage .case p {
+    line-height:170px;
+}
+
+.credit {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size:26px;
+    height:50px;
+    line-height:50px;
+    background:#262626;
+    color: white;
+    text-align:center;
+    margin: auto;
+}
+.win {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 100px;
+    color:yellow;
+}
+
+.divHighscore {
+    text-align: center;
+    height: 35px;
+    display: block;
+    overflow: auto;
+    color:white;
+    font-size:18px;
+}
+
+.score
+{
+    list-style: none;
+    text-align: center;
+    height: 35px;
+    display: block;
+    overflow: auto;
+
+}
+.score li{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size:20px;
+    color:red;
+}
+
+.bouton {
+    width:100px;
+    height:30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:white;
+    background-color: red;
+    border:none;
+}
+
+.bouton:hover {
+    background-color: #F42B2B;
+    transition:all 0.3s;
+}
+
+.test{
+    color:blue;
+    font-size:40px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .tirage {
+        font-size: 100px;
+        line-height:150px;
+    }
+    .win {
+        font-size: 70px;
+    }
+}
